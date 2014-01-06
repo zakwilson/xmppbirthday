@@ -39,4 +39,4 @@
   (when (is-birthday? person)
     (send-message conn
                   (:xmpp-id person)
-                  "Happy birthday! (see https://github.com/zakwilson/xmppbirthday)")))
+                  "Happy birthday! (see https://github.com/zakwilson/xmppbirthday )")))

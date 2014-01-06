@@ -40,3 +40,11 @@
     (send-message conn
                   (:xmpp-id person)
                   "Happy birthday! (see https://github.com/zakwilson/xmppbirthday )")))
+
+(defn -main []
+  (load-config)
+  (connect-bot))
+
+(def example-person
+  {:xmpp-id "example@gmail.com"
+   :birthday {:month 1 :day 5}})

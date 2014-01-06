@@ -30,8 +30,8 @@
 
 (defn is-birthday? [person]
   (let [birthday (make-birthday (:birthday person))]
-    (time/within? (time/interval (time/now)
-                                 (time/plus (time/now)
+    (time/within? (time/interval birthday
+                                 (time/plus birthday
                                             (time/days 1)))
                   (time/now))))
 

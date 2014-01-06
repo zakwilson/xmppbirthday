@@ -1,0 +1,4 @@
+{:host "talk.google.com"
+ :domain "gmail.com"
+ :username "example@gmail.com"
+ :password "example123"}
